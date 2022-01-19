@@ -1,9 +1,9 @@
 package com.movdeb.test.util;
 
-import com.movdeb.test.jsonmap.Root;
+import com.movdeb.test.jsonmap.Character;
 
 public interface IUtilApi {
 
-	public Root getExternalApiValues(Integer id);
+	public Character getExternalApiValues(Integer id);
 	
 }
